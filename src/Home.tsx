@@ -13,7 +13,9 @@ const Home = () => {
         const data = await fetch(GET_POST_URL);
         const postsFetched = await data.json();
         setPosts(postsFetched);
-      } catch (error) {}
+      } catch (error) {
+        console.error(error);
+      }
     };
 
     fetchPosts();
