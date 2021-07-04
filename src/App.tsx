@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { ClerkProvider, SignedIn, SignedOut } from "@clerk/clerk-react";
 import { CLERK_FRONTEND_API, CLERK_SIGN_IN_URL } from "./constants";
 import Header from "./Header";
