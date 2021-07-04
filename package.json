@@ -9,7 +9,10 @@
   ],
   "main": "src/index.tsx",
   "dependencies": {
+    "@clerk/clerk-react": "1.13.1",
+    "bootstrap": "4.6.0",
     "react": "17.0.2",
+    "react-bootstrap": "1.6.1",
     "react-dom": "17.0.2",
     "react-scripts": "4.0.0"
   },
